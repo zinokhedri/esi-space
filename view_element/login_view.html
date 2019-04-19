@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="fonts/css/login.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="fonts/css/main.css">
+</head>
+
+<body>
+    <div class="cours_login">
+        <div class="_elmlg">
+            <div class="_idlg">
+                <img class="_lgesi" src="fonts/img/logo_project.png" />
+            </div>
+            <div class="_frm_lg">
+                <div class="_ttl_cnt">
+                    <h1>Conecter vous</h1>
+                </div>
+                <div class="_all_optn">
+                    <form class="_frm_ss" method="POST" autocomplete="off">
+                        <div class="_blc_frm">
+                            <input type="text" id="user_insc" class="_identf" name="ident" autocomplete="off" required />
+                            <label for="user_insc">Email ou nemuro d'insecription</label>
+                        </div>
+                        <div class="_blc_frm">
+                            <input type="password" id="mtpss" name="motpass" class="_motpass" autocomplete="off" required/>
+                            <label for="mtpss">Mot de pass</label>
+                        </div>
+                        <div class="_blc_frm">
+                            <span class="efet_slc"><img src="fonts/img/right-arrow.png"/></span>
+                            <select class="ch_user" name="selectuser">
+                                <option></option>
+                                <option>Etudiant</option>
+                                <option>Ensiegnant</option>
+                            </select>
+                        </div>
+                        <div class="_blc_frm">
+                            <input type="submit" value="Conexion" id="cnt_to" class="cnt_ct" name="cnt_to" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="_err" class="_flasherr">
+        <span class="__incld"></span>
+        <div class="_closeflash"><span></span><span></span></div>
+    </div>
+    <script type="text/javascript" src="fonts/js/jquery.js"></script>
+    <script type="text/javascript" src="fonts/js/index.js"></script>
+</body>
+
+</html>
